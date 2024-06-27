@@ -1,0 +1,26 @@
+{
+    "name": "g4t/package-maker",
+    "description": "Package to make your own package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "G4T\\PackageMaker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HusseinAlaa",
+            "email": "hussein4alaa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "G4T\\PackageMaker\\PackageMakerServiceProvider"
+            ]
+        }
+    }
+}
